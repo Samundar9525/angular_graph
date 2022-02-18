@@ -27,9 +27,13 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/plotly.js-dist-min/plotly.min.js",
+              "src/assets/jscript/myfile.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,13 +98,20 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/jscript/myfile.js"
+            ]
           }
         }
       }
     }
   },
   "defaultProject": "demo_chart"
+
+
+
+
 }
